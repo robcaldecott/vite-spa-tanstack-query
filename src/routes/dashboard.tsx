@@ -108,4 +108,4 @@ export function Component() {
     </PrivateRoute>
   );
 }
-Component.displayName = "Index";
+Component.displayName = "Dashboard";

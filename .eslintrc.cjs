@@ -34,7 +34,6 @@ module.exports = {
       "warn",
       {
         allowConstantExport: true,
-        allowExportNames: ["meta", "links", "headers", "loader", "action"],
       },
     ],
     "@typescript-eslint/consistent-type-imports": [

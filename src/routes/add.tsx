@@ -58,7 +58,12 @@ function AddPage() {
   }
 
   if (query.isError) {
-    return <ErrorPage message={query.error.message} onRetry={query.refetch} />;
+    return (
+      <ErrorPage
+        message={query.error.message}
+        onRetry={() => void query.refetch()}
+      />
+    );
   }
 
   return (

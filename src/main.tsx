@@ -32,7 +32,7 @@ void enableMocking().then(() => {
       children: [
         {
           index: true,
-          lazy: () => import("./routes/index.tsx"),
+          lazy: () => import("./routes/dashboard.tsx"),
         },
         {
           path: "vehicles",
